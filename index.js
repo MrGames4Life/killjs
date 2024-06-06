@@ -13,7 +13,8 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 
 document.write ("This is remote text via xss.js located at xss.rocks " + document.cookie);
 alert ("This is remote text via xss.js located at xss.rocks " + document.cookie);
-alert("Surprise bitch.");
+document.write ("Surprise bitch.");
+alert ("Surprise bitch.");
   
 })();
 }
